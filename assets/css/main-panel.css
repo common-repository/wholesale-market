@@ -1,0 +1,588 @@
+/* updated css*/
+
+
+
+
+/**  Addons listing css **/
+.products li.addon_ready  h2::before {
+	border-bottom: 9px solid transparent;
+	border-left: 10px solid #fff;
+	border-top: 9px solid transparent;
+	content: "";
+	height: 0;
+	position: absolute;
+	right: 44px;
+	top: 2px;
+	width: 0;
+	z-index: 9999;
+}
+
+.wrap.woocommerce.wc_addons_wrap ul li.product.addon_ready h2::after {
+	background-color: green;
+	color: #fff;
+	content: "Live";
+	font-family: verdana;
+	font-size: 10px;
+	position: absolute;
+	right: 3px;
+	text-align: center;
+	top: 2px;
+	width: 50px;
+}
+.wrap.woocommerce.wc_addons_wrap ul.products li {
+	position: relative;
+	background: #f5f5f5 none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+	color: inherit;
+	display: block;
+	min-height: 230px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.ced_cwsm_temp_class {
+	border-top: 1px solid #f1f1f1;
+	margin: 0;
+	padding: 15px;
+}
+
+
+.wrap.woocommerce.wc_addons_wrap ul.products li h2 {
+	background-color: #fff;
+	margin: 0;
+	padding: 20px;
+}
+
+/**/
+.ced_cwsm_buy_now_anchor {
+	background-color: #fff !important;
+	display: inline-block !important;
+	margin-bottom: 10px !important;
+	min-height: 30px !important;
+	overflow: visible !important;
+}
+.ced_cwsm_temp_class {
+	border-top: 1px solid #f1f1f1;
+	margin: 0;
+	padding: 15px;
+}
+.button-secondary.ced_cwsm_buy_now_anchor.buy_now {
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%) !important;
+	color: #fff;
+	box-shadow: 0px 1px 8px rgba(0,0,0,0.2) !important;
+
+}
+
+.ced_cwsm_wc_addons_wrap li {
+	min-height: 250px!important;
+}
+
+
+
+
+	.ced_header_content {
+	background: linear-gradient(90deg, hsla(302, 73%, 26%, 1) 0%, hsla(335, 21%, 11%, 1) 57%, hsla(211, 89%, 33%, 1) 100%);
+	color: #fff;
+	padding: 10px 3px;
+	display: inline-flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 15px;
+	width: 100%;
+	justify-content: space-between;
+}
+	.ced_wholesale_content_wrapper {
+	width: 100%;
+	display: inline-flex;
+	gap: 35px;
+	padding: 3px;
+	justify-content: space-around;
+		margin-top:30px;
+}
+	.ced_wholesale_content_wrapper_left{
+		width:73%;
+}
+	.ced_wholesale_content_wrapper_right{
+		width:21%;
+		margin-top:8px;
+}
+	.ced_pro_advertisment_top_div, .ced_pro_advertisment_footer_div .ced_heading {
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	padding: 12px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px 10px 5px 10px;
+}
+	.ced_expertise_content_wrap {
+	background: #f6f6f6ab;
+	padding: 26px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.alignleft.actions.bulkactions {
+	margin-bottom: 10px;
+}
+.ced_pro_advertisment_banner_section img {
+	width: 100%;
+}
+
+.ced_header_content_left {
+	display: inline-flex;
+	align-items: center;
+	gap: 35px;
+}
+.ced_header_content img {
+	width: 160px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.ced_header_content_right a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	margin-right:44px;
+}
+
+#ced_cwsm_csv_processing_div {
+	display: none;
+}
+
+#wpcontent {
+	background: #fff;
+	height: auto !important;
+}
+.ced-nav-tab-main {
+	position: sticky;
+	top: 25px;
+	background: #fff;
+	z-index: 999;
+}
+.nav-tab-wrapper.woo-nav-tab-wrapper a {
+	background: #fff;
+	border-bottom: 1px solid #c3c4c7;
+	box-shadow: 0px 1px 8px rgba(0,0,0,0.2);
+	border-radius: 5px 10px 5px 10px;
+}
+.nav-tab {
+	float: none;
+	display: block;
+	margin-bottom: 20px;
+}
+.ced-nav-tab-main .nav-tab-wrapper.woo-nav-tab-wrapper {
+	border-bottom: 0;
+}
+.form-table tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+.nav-tab-wrapper.woo-nav-tab-wrapper a:hover {
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	color: #fff;
+}
+.ced-nav-tab-main nav {
+	display: flex;
+}
+.ced-nav-tab-main nav a {
+	width: 33%;
+	text-align: center;
+	border-radius: 0;
+	padding: 10px;
+}
+.ced-main-content {
+	position: relative;
+	content: '';
+	clear: both;
+	content: '';
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	padding: 20px;
+	display: flow-root;
+}
+.ced-container {
+	margin: 0 auto;
+	transform: translateY(0%);
+	display: block;
+}
+.ced-container {
+	margin: 0 auto;
+	transform: translateY(0%);
+	display: block;
+	/*max-width: 1068px;*/
+}
+.woocommerce .subsubsub {
+	margin: 0px 0 0 !important;
+}
+.ced_wholesale_sections .subsubsub {
+	width: 100%;
+/*	overflow: scroll;
+	overflow-x: hidden;*/
+	scrollbar-width: none;
+	background: none;
+}
+.clear.ced_clear_for_wrap {
+	display: none;
+}
+.nav-tab-wrapper.woo-nav-tab-wrapper a:first-child {
+	margin-left: 0;
+}
+.ced_wholesale_settings_content_wrapper h2 {
+	background: #fff;
+	display: inline;
+	line-height: 41px !important;
+	margin: 0;
+	margin-left: 0px !important;
+	font-size: 22px;
+}
+.ced_wholesale_sections ul li a:hover {
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	color: #fff !important;
+	border-radius:5px 10px 5px 10px;
+}
+.woocommerce table.form-table{
+	margin-bottom:30px;
+}
+.form-table, .form-table td, .form-table td p, .form-table th {
+	font-size: 13px;
+}
+
+.ced_wholesale_sections {
+/*	overflow: scroll;
+	scrollbar-width: none;*/
+	width: 25%;
+}
+.ced_wholesale_settings_content_parent_wrapper {
+	overflow: hidden;
+}
+.ced_wholesale_settings_content_wrapper .form-table tbody tr th .woocommerce-help-tip {
+	position: relative;
+}
+.form-table tbody tr:last-child {
+	border: 0;
+}
+.form-table ~ .submit input {
+	border: none;
+	padding: 5px 19px;
+	margin-right: 20px;
+	border-radius: 7px;
+	font-size: 15px;
+}
+.form-table ~ .submit {
+	text-align: right;
+}
+.ced_wholesale_sections ul li a {
+	display: block;
+	background: none;
+	padding: 7px 15px;
+	color: #000 !important;
+	font-size: 13px;
+	margin-bottom: 15px;
+
+}
+.ced_wholesale_sections ul li {
+	display: block;
+	box-shadow: 0px 1px 8px rgba(0,0,0,0.2);
+	width: 98%;
+	margin: 0 auto;
+	border-radius: 5px 10px 5px 10px;
+}
+.ced_wholesale_sections {
+	width: 25%;
+	margin-right: 10px;
+	float: left;
+	position: sticky;
+	top: 110px;
+}
+#wc_ced_ws_setting_tab_section_title-1-description p {
+	font-size: 16px !important;
+	color: #000;
+	font-weight: 600;
+	margin-top: 11px;
+	margin-bottom: 0;
+}
+.ced_wholesale_settings_content_wrapper .form-table tbody tr th {
+	width: 40%;
+}
+.form-table tbody tr {
+	border-bottom: 2px solid #fff;
+}
+.form-table tbody tr:last-child {
+	border-bottom: 0;
+}
+.ced_wholesale_settings_content_wrapper .form-table tbody tr th .woocommerce-help-tip {
+	position: relative !important;
+}
+.nav-tab.nav-tab-active {
+	background:linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%) !important;
+	color: #fff;
+	box-shadow: 0px 1px 8px rgba(0,0,0,0.2) !important;
+}
+#ced_cwsm_custm_msg_header-description ~ .form-table textarea {
+	width: 100% !important;
+}
+.ced-main-content .ced_wholesale_sections .subsubsub li .current {
+	background:linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	color: #fff !important;
+	border-radius:5px 10px 5px 10px;
+}
+#ced_cwsm_custm_msg_header-description ~ .submit {
+	text-align: right;
+	background: ;
+}
+#ced_cwsm_custm_msg_header-description ~ .submit input {
+	background:linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	border: none;
+	padding: 5px 19px;
+	margin-right: 20px;
+	border-radius: 7px;
+	font-size: 15px;
+}
+.ced_wholesale_settings_content_wrapper {
+	padding-left: 20px;
+}
+.forminp.forminp-text input {
+	width: 100% !important;
+}
+.forminp.forminp-textarea textarea {
+	width: 100% !important;
+}
+.woocommerce table.form-table .select2-container {
+	width: 100% !important;
+}
+.forminp.forminp-number input {
+	width: 100% !important;
+}
+.tablenav.top .alignleft.actions.bulkactions {
+	margin-bottom: 10px;
+	float: right;
+}
+.ced_cwsm_rows_wrap {
+	width: 50%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 0 0 0;
+}
+.tablenav.top {
+	width: 50%;
+	float: right;
+	margin-top: -33px;
+	text-align: center;
+}
+.nav-tab-wrapper.woo-nav-tab-wrapper {
+	margin-bottom: 0 !important;
+}
+.woocommerce .subsubsub {
+	margin: 0px 0 0;
+}
+.woocommerce nav.woo-nav-tab-wrapper{
+	margin:0px!important;
+}
+/*.ced_wholesale_sections {
+top: 137px;
+}*/
+.ced-mobile-wrap {
+	display: none;
+}
+
+.woocommerce-save-button, #ced_cwsm_csv_module_main button,  #ced_cwsm_csv_module_main a, #ced_wura_save_notification_setting{
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%)!important;
+	font-size:12px!important;
+}
+
+
+@media only screen and (max-width: 756px) {
+	.ced-mobile-wrap {
+	display: block;
+}
+.subsubsub {
+	display: none;
+}
+.ced-head-wrap {
+	display: none;
+}
+#ced-menu .subsubsub {
+	display: block;
+}
+.ced-main {
+	margin: 0 auto;
+	display: block;
+	height: 100%;
+	margin-top: 60px;
+}
+.ced-mainInner{
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.ced-mainInner div{
+	display:table-cell;
+	vertical-align: middle;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 1.25px;
+}
+#ced-menu {
+	height: 100%;
+	position: fixed;
+	left: -23px;
+	width: 250px;
+	margin-top: 25px;
+	transform: translateX(-250px);
+	transition: transform 250ms ease-in-out;
+	z-index: 9999999999999;
+	position: relative;
+	content: '';
+}
+	.ced_wholesale_content_wrapper{
+		display:block;
+}
+	.ced_wholesale_content_wrapper_left, .ced_wholesale_content_wrapper_right{
+		width:98%;
+		margin:auto;
+}
+.wrap.woocommerce {
+	margin: 0;
+}
+#wpcontent {
+	padding-left: 0 !important;
+}
+.ced_wholesale_settings_content_wrapper {
+	padding-left: 20px;
+	margin-top: 21px;
+	padding-left: 0;
+}
+.ced_wholesale_sections .subsubsub {
+	width: 100%;
+	/* overflow: scroll; */
+	/* overflow-x: hidden; */
+	scrollbar-width: none;
+	background: #fff;
+	padding: 10px;
+	padding-top: 0;
+	padding-left: 0;
+}
+.ced-sidebar{
+	margin:0;
+	padding:0;
+	border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.ced-sidebar li{
+	list-style: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.ced-sidebar li span{
+	display: block;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.50);
+}
+.ced-sidebar li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #ced-menu {
+	transform: translateX(0);
+}
+
+input[type=checkbox] {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	display: none;
+}
+.ced-toggle {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	cursor: pointer;
+	position: absolute;
+	z-index: 99;
+	/* height: 100%; */
+	/* width: 100%; */
+	top: -18px;
+	left: -20px;
+	height: 42px;
+	width: 42px;
+	background: linear-gradient(90deg, rgba(60,54,104,1) 32%, rgb(35 38 86) 76%);
+	padding: 13px 8px;
+	z-index: 99999999;
+}
+.ced_wholesale_settings_content_parent_wrapper {
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+}
+.ced-spin {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	background-color: #fff;
+}
+.ced-horizon {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	margin-top: 3px;
+}
+.ced-diag.ced-one {
+	position: relative;
+	transition: all 0.3s;
+	box-sizing: border-box;
+	float: left;
+}
+.ced-diag.part-2 {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .ced-toggle > .ced-horizon {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	opacity: 0;
+}
+input[type=checkbox]:checked ~ .ced-toggle > .ced-diag.ced-one {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	transform: rotate(135deg);
+	margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .ced-toggle > .ced-diag.part-2 {
+	transition: all 0.3s;
+	box-sizing: border-box;
+	transform: rotate(-135deg);
+	margin-top: -9px;
+}
+.ced_wholesale_sections {
+	width: 0;
+	margin-right: 10px;
+	float: left;
+	position: sticky;
+	top: 110px;
+	margin: 0 !important;
+}
+}
+.wp-list-table.widefat.fixed.striped.table-view-list.wholesaleuserroles {
+	border: 1px solid #ccc!important;
+	border-radius: 0px;
+}
+
+.ced_pro_advertisment_org_section {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  40% {
+	opacity: 0.2;
+  }
+}
